@@ -28,6 +28,13 @@
             android:layout_height="wrap_content" />
 
 
+        <Button
+            android:text="地心引力引导页"
+            android:id="@+id/btn_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
 
 
     </LinearLayout>

@@ -29,4 +29,5 @@ dependencies {
     //    testCompile 'junit:junit:4.12'
     compile project(':mogulead')
     compile project(':xiamilead')
+    compile project(':dixinlead')
 }

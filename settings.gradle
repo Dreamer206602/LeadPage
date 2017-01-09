@@ -1,1 +1,1 @@
-include ':app', ':mogulead', ':xiamilead'
+include ':app', ':mogulead', ':xiamilead', ':dixinlead'
