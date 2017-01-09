@@ -30,4 +30,5 @@ dependencies {
     compile project(':mogulead')
     compile project(':xiamilead')
     compile project(':dixinlead')
+    compile project(':liulishuolead')
 }

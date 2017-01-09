@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/LeadPage.iml" filepath="$PROJECT_DIR$/LeadPage.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dixinlead/dixinlead.iml" filepath="$PROJECT_DIR$/dixinlead/dixinlead.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liulishuolead/liulishuolead.iml" filepath="$PROJECT_DIR$/liulishuolead/liulishuolead.iml" />
       <module fileurl="file://$PROJECT_DIR$/mogulead/mogulead.iml" filepath="$PROJECT_DIR$/mogulead/mogulead.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiamilead/xiamilead.iml" filepath="$PROJECT_DIR$/xiamilead/xiamilead.iml" />
     </modules>
