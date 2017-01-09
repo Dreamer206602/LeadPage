@@ -10,12 +10,14 @@ import com.booboomx.dixinlead.DiXinActivity;
 import com.booboomx.liulishuolead.LiuLishuoActivity;
 import com.booboomx.mogulead.MoGuLeadActivity;
 import com.booboomx.xiamilead.XiaMiActivity;
+import com.booboomx.yahonewslead.YaHuNewsActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button  btnOne;
     private Button  btnTwo;
     private Button btnThree;
     private Button btnFour;
+    private Button btnFive;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnTwo.setOnClickListener(this);
         btnThree.setOnClickListener(this);
         btnFour.setOnClickListener(this);
+        btnFive.setOnClickListener(this);
     }
 
     private void initView() {
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnTwo= (Button) findViewById(R.id.btn_two);
         btnThree= (Button) findViewById(R.id.btn_three);
         btnFour= (Button) findViewById(R.id.btn_four);
+        btnFive= (Button) findViewById(R.id.btn_five);
 
 
 
@@ -61,6 +65,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_four:
                 startActivity(new Intent(this, LiuLishuoActivity.class));
+                break;
+            case R.id.btn_five:
+                startActivity(new Intent(this, YaHuNewsActivity.class));
                 break;
 
 

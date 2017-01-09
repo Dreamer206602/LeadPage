@@ -43,6 +43,17 @@
 
 
 
+        <Button
+            android:text="雅虎新闻引导页"
+            android:id="@+id/btn_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
 
 
 
