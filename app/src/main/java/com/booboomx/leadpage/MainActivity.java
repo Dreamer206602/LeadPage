@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnFour;
     private Button btnFive;
     private Button btnSix;
+    private Button btnSeven;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnFour.setOnClickListener(this);
         btnFive.setOnClickListener(this);
         btnSix.setOnClickListener(this);
+        btnSeven.setOnClickListener(this);
     }
 
     private void initView() {
@@ -48,6 +50,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnFive= (Button) findViewById(R.id.btn_five);
 
         btnSix= (Button) findViewById(R.id.btn_six);
+
+        btnSeven= (Button) findViewById(R.id.btn_seven);
+
+
+
 
 
 
@@ -77,6 +84,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_six:
                 startActivity(new Intent(this, ListActivity.class));
+                break;
+
+            case R.id.btn_seven:
+//                startActivity(new Intent(this, SelectorActivity.class));
                 break;
 
 
