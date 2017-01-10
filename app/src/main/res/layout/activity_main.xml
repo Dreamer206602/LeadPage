@@ -51,6 +51,14 @@
 
 
 
+        <Button
+            android:text="Onboarding"
+            android:id="@+id/btn_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
 
 
 

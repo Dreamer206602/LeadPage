@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.booboomx.dixinlead.DiXinActivity;
 import com.booboomx.liulishuolead.LiuLishuoActivity;
 import com.booboomx.mogulead.MoGuLeadActivity;
+import com.booboomx.onboarderlead.onboarder.activity.ListActivity;
 import com.booboomx.xiamilead.XiaMiActivity;
 import com.booboomx.yahonewslead.YaHuNewsActivity;
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnThree;
     private Button btnFour;
     private Button btnFive;
+    private Button btnSix;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnThree.setOnClickListener(this);
         btnFour.setOnClickListener(this);
         btnFive.setOnClickListener(this);
+        btnSix.setOnClickListener(this);
     }
 
     private void initView() {
@@ -43,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnThree= (Button) findViewById(R.id.btn_three);
         btnFour= (Button) findViewById(R.id.btn_four);
         btnFive= (Button) findViewById(R.id.btn_five);
+
+        btnSix= (Button) findViewById(R.id.btn_six);
 
 
 
@@ -68,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_five:
                 startActivity(new Intent(this, YaHuNewsActivity.class));
+                break;
+
+            case R.id.btn_six:
+                startActivity(new Intent(this, ListActivity.class));
                 break;
 
 
