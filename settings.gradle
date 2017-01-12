@@ -1,1 +1,1 @@
-include ':app', ':mogulead', ':xiamilead', ':dixinlead', ':liulishuolead', ':yahonewslead', ':onboarderlead'
+include ':app', ':mogulead', ':xiamilead', ':dixinlead', ':liulishuolead', ':yahonewslead', ':onboarderlead', ':xanimationlayoutlib'

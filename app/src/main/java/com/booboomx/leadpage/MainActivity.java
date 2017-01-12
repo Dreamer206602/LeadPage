@@ -10,6 +10,7 @@ import com.booboomx.dixinlead.DiXinActivity;
 import com.booboomx.liulishuolead.LiuLishuoActivity;
 import com.booboomx.mogulead.MoGuLeadActivity;
 import com.booboomx.onboarderlead.onboarder.activity.ListActivity;
+import com.booboomx.xanimationlayoutlib.demo.XAnimationActivity;
 import com.booboomx.xiamilead.XiaMiActivity;
 import com.booboomx.yahonewslead.YaHuNewsActivity;
 
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_seven:
-//                startActivity(new Intent(this, SelectorActivity.class));
+                startActivity(new Intent(this, XAnimationActivity.class));
                 break;
 
 
